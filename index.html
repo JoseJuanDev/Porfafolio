@@ -494,11 +494,6 @@ body.dark .progress-bar {
   <!-- Proyectos -->
   <section id="proyectos">
     <h2>Proyectos</h2>
-    <!--<p class="nota-proyectos"><strong>Nota:</strong> Los enlaces estarán activos únicamente de 9:00 a.m. a 6:00 p.m.
-      (hora de Monterrey). Presiona "Visit Site" para entrar al proyecto</p>-->
-
-    <p class="nota-proyectos"><strong>Nota:</strong> Presiona <b>"Ver Proyecto"</b> para verlo en acción (la primera vez debes presionar "Visit Site" para entrar al sitio)</p>
-    <!--<p class="nota-proyectos">Por el momento no está disponible "Ver proyecto" por temas de servidor, pronto estará activo nuevamente.</p>-->
 
     <div class="projects">
       <div class="project-card">
@@ -516,8 +511,6 @@ body.dark .progress-bar {
               <span class="tag ajax">AJAX</span>
               <span class="tag sqlserver">MS SQL SERVER</span>
           </div>
-          <a href="https://nonhomogeneous-nonrepressed-mechelle.ngrok-free.dev/MiTienda" target="_blank"
-            class="btn-project">Ver proyecto</a>
         </div>
       </div>
 
@@ -536,10 +529,6 @@ body.dark .progress-bar {
               <span class="tag dapper">DAPPER</span>
               <span class="tag di">INYECCION DEPENDENCIAS</span>
           </div>
-          <a href="https://nonhomogeneous-nonrepressed-mechelle.ngrok-free.dev/MiPresupuesto" target="_blank"
-            class="btn-project position-relative">
-            Ver proyecto
-          </a>
         </div>
       </div>
 
@@ -559,10 +548,6 @@ body.dark .progress-bar {
               <span class="tag ratelimit">AspNetCoreRateLimit</span>
               <span class="tag swagger">Swagger</span>
           </div>
-          <a href="https://nonhomogeneous-nonrepressed-mechelle.ngrok-free.dev/ApiClientes/swagger/index.html"
-            target="_blank" class="btn-project position-relative">
-            Ver proyecto
-          </a>
         </div>
       </div>
 
@@ -583,14 +568,6 @@ body.dark .progress-bar {
               <span class="tag oauth">Oauth</span>
               <span class="tag entityframework">Entity Framework Core</span>
           </div>
-          <a href="https://nonhomogeneous-nonrepressed-mechelle.ngrok-free.dev/MisTareas"
-            target="_blank" class="btn-project position-relative">
-            Ver proyecto
-            <span class="position-absolute top-0 start-100 translate-middle badge-project">
-              En desarrollo
-              <span class="visually-hidden">estado del proyecto</span>
-            </span>
-          </a>
         </div>
       </div>
 
@@ -627,23 +604,6 @@ body.dark .progress-bar {
   <img class="modal-content" id="modalImage">
   <div id="caption"></div>
 </div>
-
-  <script>
-    // Obtener todos los enlaces de proyectos
-    /*  const links = document.querySelectorAll(".btn-project");
-      const ahora = new Date();
-      const hora = ahora.getHours();
-  
-      // Validar horario (9:00 a 14:00)
-      if (hora < 9 || hora >= 18) {
-        links.forEach(link => {
-          link.removeAttribute("href");
-          link.textContent = "Disponible de 9:00 a 18:00";
-          link.style.pointerEvents = "none";
-          link.style.color = "gray";
-        });
-      }*/
-  </script>
 
   <!-- Habilidades -->
   <section id="habilidades">
@@ -761,7 +721,7 @@ body.dark .progress-bar {
     <a href="https://www.linkedin.com/in/jose-juan-reyes" target="_blank" class="contact-link">
       <i class="bi bi-linkedin"></i> jose-juan-reyes
     </a>
-    <a href="cv.pdf" download class="contact-link">
+    <a href="cv.pdf" download class=\"contact-link\">
       <i class="bi bi-file-earmark-arrow-down"></i>Descargar CV
     </a>
   </div>
